@@ -4,4 +4,5 @@ from django.contrib import admin
 class EmpAdmin(admin.ModelAdmin):
     a=10
     B=20
+    C = a + B
     pass
